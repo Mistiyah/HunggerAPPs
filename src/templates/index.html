@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="##ffa500" />
+    <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+    <link rel="manifest" href="app.webmanifest" />
+    <link rel="icon" href="./logo-hungger-app.png" />
+    <title>Hunger Apps</title>
+  </head>
+  <body>
+    <!-- Skip to Content Link -->
+    <a href="#main-content" class="skip-to-content">Menuju content</a>
+
+    <!-- Navigation Bar -->
+    <header>
+      <div class="logo">Hunger Apps</div>
+      <button id="hamburgerButton" class="hamburger" tabindex="0" aria-expanded="false" aria-controls="navigationDrawer">&#9776;</button>
+      <nav id="main-menu" id="navigationDrawer" class="nav-body">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="#/Favorite">Favorite</a></li>
+          <li><a href="https://www.linkedin.com/in/mistiyah-98a919284/">About Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Element -->
+    <section class="hero">
+      <picture class="hero-image" class="lazyload">
+        <source media="(min-width: 600px)" srcset="../public/images/hero-image_2-small.png " />
+      </picture>
+
+      <div class="hero-overlay"></div>
+      <div class="hero-text">
+        <h1>Welcome to Hunger Apps</h1>
+        <p>Discover the best restaurants near you!</p>
+      </div>
+    </section>
+
+    <!-- Daftar Restoran -->
+    <main id="mainContent" tabindex="0"></main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <p>Copyright &copy; 2024 - Hunger Apps</p>
+        <p>Designed by Mistiyah</p>
+      </div>
+    </footer>
+  </body>
+</html>
